@@ -1,7 +1,5 @@
 package com.example.contactslist;
 
-import com.example.contactslist.repository.ContactRepository;
-import com.example.contactslist.repository.InMemoryContactRepository;
 import com.example.contactslist.service.ContactService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;

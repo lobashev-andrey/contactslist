@@ -1,11 +1,8 @@
 package com.example.contactslist.repository;
 
 import com.example.contactslist.Contact;
-//import com.example.contactslist.listener.DatabaseContactsListener;
 import lombok.RequiredArgsConstructor;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnExpression;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;

@@ -6,10 +6,11 @@ spring:
     hikari:
       schema: contacts_schema
 #logging:
-#  level:
-#    root: debug
+  #  level:
+  #    root: debug
 app:
   database:
     init: true
-    source: inMemory
-#    source: db
+    source: db
+    #    source: inMemory
+
